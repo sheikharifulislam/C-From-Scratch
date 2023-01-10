@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,c
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,c
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,ceylon,c,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,ceylon,c,c++
 
 ### C ###
 # Prerequisites
@@ -10,12 +10,13 @@
 *.ko
 *.obj
 *.elf
+*.exec
 
 # Linker output
 *.ilk
 *.map
 *.exp
-*.exec
+
 
 # Precompiled Headers
 *.gch
@@ -40,7 +41,6 @@
 *.i*86
 *.x86_64
 *.hex
-*.exec
 
 # Debug files
 *.dSYM/
@@ -56,6 +56,36 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+### Ceylon ###
+# build
+modules
+test-modules
+
+# fat-jar build
+*.jar
+
+# Auto backup setting file
+.ceylon/config.old
 
 ### macOS ###
 # General
@@ -109,5 +139,5 @@ Temporary Items
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,c
+# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,ceylon,c,c++
 1
